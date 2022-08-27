@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset cooperjl:1
+--changeset author:jlcooper
 CREATE TABLE IF NOT EXISTS school
 (
     school_id                         serial primary key,
