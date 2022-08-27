@@ -1,0 +1,5 @@
+FROM postgres:latest
+ENV POSTGRES_USER=sqluser
+ENV POSTGRES_PASSWORD=test
+ENV POSTGRES_DB=college_data
+#ENV POSTGRES_HOST_AUTH_METHOD=trust
